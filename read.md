@@ -1,6 +1,6 @@
 # Linux Enumeration
 
-### Distribution type and version of Operating System  
+### 1. Distribution type and version of Operating System  
 <ins>Following commands used for check version of operating system</ins> 
 
 cat /etc/issue  
@@ -9,7 +9,7 @@ cat /etc/*-release
 ![](https://github.com/pritessh/Linux-Enumeration/blob/master/images/1.JPG)
 ![](https://github.com/pritessh/Linux-Enumeration/blob/master/images/2.JPG)
 
-### Identify Kernel Version  
+### 2. Identify Kernel Version  
 <ins>Following commands are used for identify kernel version of Operating System</ins>
 
 cat /proc/version  
@@ -18,7 +18,7 @@ uname -mrs
 
 ![](https://github.com/pritessh/Linux-Enumeration/blob/master/images/3.JPG)
 
-### Identify Environment Variables  
+### 3. Identify Environment Variables  
 <ins>Following commands are used for identify environment variables</ins>  
 
 cat /etc/profile  
@@ -31,7 +31,7 @@ set
 
 ![](https://github.com/pritessh/Linux-Enumeration/blob/master/images/4.JPG)
 
-### Which services running and Which service has which user privilege in operating system  
+### 4. Which services running and Which service has which user privilege in operating system  
 <ins>Following commands are used for check running services and user privilege of services </ins>
 
 ps aux  
@@ -42,7 +42,7 @@ cat /etc/services
 ![](https://github.com/pritessh/Linux-Enumeration/blob/master/images/5.JPG)
 ![](https://github.com/pritessh/Linux-Enumeration/blob/master/images/6.JPG)
 
-### Identify which application is installed with version of that application  
+### 5. Identify which application is installed with version of that application  
 <ins>Following commands are used for identify which application and what is the version of application is installed</ins>  
 ls -alh /usr/bin/  
 ls -alh /sbin/  
@@ -52,7 +52,7 @@ dpkg -l
 ![](https://github.com/pritessh/Linux-Enumeration/blob/master/images/8.JPG)
 ![](https://github.com/pritessh/Linux-Enumeration/blob/master/images/9.JPG)
 
-### Identify User information and Sensitive Files
+### 6. Identify User information and Sensitive Files
 <ins>Following commands are used for identify user information and sensitive files</ins>  
 id  
 w  
